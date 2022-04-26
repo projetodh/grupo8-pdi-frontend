@@ -2,3 +2,74 @@
    box-sizing: border-box; 
 }
 
+body{
+
+}
+
+.cabecalho{
+   background-color: #1C256D;
+}
+
+.second-cabecalho{
+   background-color: #1C256D;
+}
+
+footer{
+   background-color: #1C256D;
+}
+
+.cursos{
+
+}
+
+body{
+
+}
+
+.container-cursos-item{
+    border: solid;
+    width: 230px;
+    text-align: center;
+}
+
+.cursos-header{
+    border: solid;
+    text-align: center;
+    width: 230px;
+}
+
+img{
+border-radius: 20px;
+}
+
+.content-cursos{
+   margin-top: 40px;
+}
+
+.more-options-cursos{
+    border: solid;
+    margin-left: 90%;
+    margin-top: 10px;
+    width: 70px;
+
+}
+
+.cursos-body-title-item1{
+    text-decoration: none;
+}
+.cursos-body-title-item2{
+    text-decoration: none;
+
+}
+.cursos-body-title-item3{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.footer{
+   
+}
