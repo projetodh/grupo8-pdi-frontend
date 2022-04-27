@@ -7,15 +7,11 @@ body{
 }
 
 .cabecalho{
-   background-color: #1C256D;
+   background-color: #29005E;
 }
 
 .second-cabecalho{
-   background-color: #1C256D;
-}
-
-footer{
-   background-color: #1C256D;
+   background-color: #29005E;
 }
 
 .cursos{
@@ -64,12 +60,31 @@ border-radius: 20px;
 .cursos-body-title-item3{
     text-decoration: none;
 }
+footer {
 
+    background-color: #29005E;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
 
+}
+.palavrinhas {
 
+    color: #eff0f0;
+    width: 45%;
+    text-align: right;
+    float: right;
+    margin-right: 95px;
 
+}
+.copyright {
 
+    color:#c4c6c6;
+    width: 100%;
+    padding-top: 12%;
+    margin-left: 45px;
+    text-align: start;
+    font-style: italic;
 
-.footer{
-   
 }
