@@ -24,16 +24,17 @@
 
     <main> <!-- Gaby essa é sua parte -->
         <section class="container-fluid second-cabecalho"> <!-- nao exclui o "container fluid"-->
-            <!--adicionar uma div para alinhar os elementos em linha-->
-            <h1> Comece a programar </h1>
-            <p> aklsmldmlkmasdmsdkdkl </p>
+            <div class="title-second-cabecalho"><h1> Comece a estudar programação AGORA </h1>
+            </div>
+            <div class="paragaph-second-cabecalho"><p class="paragraph-second-cabecalho-detail"> Te ajudamos a aprender programação do zero, fazendo com que você crie autonomia nos estudos, o que é muito importante na área da tecnologia. </p>
+            </div>
             <img src="">
         </section> <!-- até aqui -->
 
         
         <!-- Julio essa é a sua parte -->
         <section class="container-fluid border border-primary p-5">
-            <div class="text-center border border-dark"> <h5>Aqui voce estuda</h5></div>
+            <div class="text-center border border-dark"> <h5>Alguns dos nossos cursos</h5></div>
             <!-- fazer um slide de img -->
             
             <div class="d-flex justify-content-around container-cursos content-cursos border border-dark"> 
@@ -41,29 +42,34 @@
                 <!-- card do curso 1 -->
                 <div class="container-cursos-item">
             <div class="cursos-header">
-                <img width="240" src="assets/img/javascript.png">
+                <img id="javascript" width="230" src="assets/img/javascript1.png">
             </div>
-                <div>
-                    <h5>
+                <div class="cursos-body-javascript">
+                    <div> 
+                        <h5 class="title-body-javascript">
                         <a class="cursos-body-title-item1" href="#"> JavaScript 
                 </a>
             </h5>
         </div>
         <div>
-            <p> Consiste em uma das linguagens de programação mais populares do mundo </p></div>
-            <div>
-                <a href="#"> Me inscrever </a>
-            </div>
+            <p class="paragaph-body-javascript"> Consiste em uma das linguagens de programação mais populares do mundo </p>
+        </div>      
+        
+        <div class="btn-javascript">
+                <a class="btn-footer-javascript" href="#"> Me inscrever </a>
+            </div>    
+        </div>
+  
         </div>
 
                 <!-- card do curso 2 -->
                 <div class="container-cursos-item"> 
                     <div class="cursos-header">
-                        <img width="240" src="assets/img/css.png">
+                        <img id="css" width="230" height="" src="assets/img/css.png">
                     </div>
                         <div class="body-title">
                             <h5>
-                            <a class="cursos-body-title-item2" href="#"> JavaScript </a></h5>
+                            <a class="cursos-body-title-item2" href="#"> CSS </a></h5>
                         </div>
                         
                         <div>
@@ -79,13 +85,32 @@
                 </div>
                     <div>
                         <h5>
-                            <a class="cursos-body-title-item3" href="#"> JavaScript </a></h5>
+                            <a class="cursos-body-title-item3" href="#"> HTML </a>
+                        </h5>
                     </div>
                     
-                    <div><p> Consiste em uma das linguagens de programação mais populares do mundo </p></div>
-                    <div><a href="#"> Me inscrever </a>
+                    <div>
+                        <p> Consiste em uma das linguagens de programação mais populares do mundo 
+
+                        </p>
                     </div>
+                    <div>
+                        <a href="#"> Me inscrever </a></div>
                     </div>
+
+                    <!-- card do curso 4 -->
+                    <div class="container-cursos-item"> 
+                        <div class="cursos-header">
+                            <img width="240" src="assets/img/html.png">
+                        </div>
+                            <div>
+                                <h5>
+                                    <a class="cursos-body-title-item3" href="#"> JavaScript </a></h5>
+                            </div>
+                            
+                            <div><p> Consiste em uma das linguagens de programação mais populares do mundo </p></div>
+                            <div><a href="#"> Me inscrever </a></div>
+                            </div>
             </div>
         
         <div class="more-options-cursos"> 
@@ -98,12 +123,35 @@
 
         <!-- Julio parte 2 -->
         <section class="container-fluid p-5 border border-dark">
-            <!-- alinha o texto e as caixinhas do mesmo jeito do figma -->
-            <h4>Se torne autodidata ou como funciona</h4>
-            <div class="bg-dark w-25 cursos p-5">nossos cursos</div>
-            <div class="bg-dark w-25 cursos p-5">nossos cursos</div>
-            skdssdkddsk
-            kddksdksdkssdk
+            <div class="border py-2 mt-2 border-dark">
+                <h4 class="py-2">Se torne autodidata</h4>
+            </div>
+            
+            <div class="container-fluid mt-4 border border-dark">
+            <div class="border border border-primary">
+                <div class="d-flex box-o border border-dark">
+                <div class="box-blue-o"> 
+            <h5> Estude no seu tempo </h5>
+            <p> Ajudamos você a se organizar nos estudos para não ficar perdido com tanto conteúdo gratuito que iremos compartilhar. </p> </div>
+            <div class="box-red-t"> 
+                <h5> Guia de estudos </h5>
+                <p> Ele servirá para dar um norte para as pessoas que não sabem por onde começar, além disso te ajudaremos a seguir nessa jornada de aprendizado de forma autodidata. </p>
+        </div>
+</div>
+<!--<div class="image-box border border-primary w-25" >
+<img class="" src="assets/img/moço-apontando.jpeg">
+    </div>-->
+        <div class="d-flex box-t border mt-4 border-dark">
+        <div class="box-red-tt"> 
+        <h5> Tudo em um só lugar </h5>
+        <p> Com tanto conteúdo gratuito na internet é normal ficar perdido, o debugrace é exatamente o que você precisa para organizar seus estudos </p> </div>
+        <div class="box-blue-f"> 
+        <h5> Blog </h5>
+        <p> Ele servirá para dar um norte para as pessoas que não sabem por onde começar, além disso te ajudaremos a seguir nessa jornada de aprendizado de forma autodidata. </p>
+        </div>
+        </div>
+        </div>
+        </div>
         </section> <!-- até aqui -->
 
 
@@ -133,7 +181,7 @@
                 'Trebuchet MS', sans-serif; font-style: italic;">pro.gra.mar</h4>
                     <h5 style=" text-align: end;">"A arte de criar os bugs de um sistema"</h5>
             </div>
-        <div class="copyright"
+        <div class="copyright">
             <h6>debugrace 2022</h6>
             <i class="fa-regular fa-copyright"></i>
         </div>
