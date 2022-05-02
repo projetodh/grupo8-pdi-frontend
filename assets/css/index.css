@@ -440,38 +440,82 @@ border-radius: 20px;
     margin-right: 5px;
 }
 
-
-
-
-
 footer {
+
+    background-color: #1C256D;
+    font-family: 'Courier Prime';
     padding-top: 5%;
     padding-bottom: 10%;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+
+}
+.conceito {
+
+    color: #FFFFFF;
+    width: 35%;
+    text-align: start;
+    float: left;
+    margin-left: 45px; 
+    font-family: Cairo;
 
 }
 .palavrinhas {
 
-    color: #eff0f0;
+    color: #f9f9f9;
     width: 45%;
     text-align: right;
     float: right;
     margin-right: 95px;
 
 }
+.palavrinhas h4 {
+    
+    color: #D44A4A;
+    text-align: start;
+}
+.palavrinhas h5 {
+
+    text-align: end;
+
+}
+.socialmedia {
+
+    color: #FFFFFF;
+    width: 95%;
+    text-align: left;
+    float: left;
+    margin-left: 35px;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+
+
+}
+.socialmedia-h5{
+
+    margin-left: 10px;
+    font-family: Verdana;
+    font-style: bold;
+
+}
+.socialmedia ul {
+
+    display: flex;
+
+}
+.socialmedia li {
+
+    list-style-type: none;
+    padding-right: 1%;
+
+}
 .copyright {
 
     color:#c4c6c6;
-    width: 100%;
+    width: 50%;
     padding-top: 12%;
     margin-left: 45px;
     text-align: start;
     font-style: italic;
 
-}
-
-
-footer{
-   background-color: #1C256D;
 }
