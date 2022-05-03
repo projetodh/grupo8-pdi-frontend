@@ -3,10 +3,11 @@
 *{
     margin: 0;
     padding: 0;
-   box-sizing: border-box; 
+    box-sizing: border-box; 
 }
 
 body{
+    background-color: rgba(243, 244, 255, 0.9);
 
 }
 
@@ -25,12 +26,21 @@ body{
   
 .cabecalho-menu-item {
     text-decoration: none;
-    font-family: 'Cairo', sans-serif;;
+    font-family: 'Cairo', sans-serif;
     color: #FFF2E7;
     font-weight: 250px;
-    font-size: 16px;
-    margin-right: 10px;
+    font-size: 19px;
+    margin-right: 5px;
+    cursor: pointer;
+}
 
+#Guia{
+    border-right: solid 2px #3a48b0;
+    padding-right: 35px;
+}
+
+.cabecalho-menu-item:hover{
+    color: #7b86de;
 }
 
 .cabecalho-menu-item {
@@ -39,15 +49,15 @@ body{
 }  
 
 .imagem-cabecalho{
-    width: auto;
+    width: 230px;
     height: 40px;
     vertical-align: top;
-    padding-top: 0px; 
+    padding-top: 12px; 
 }
 
 .second-cabecalho{
     background-color: #1C256D;
-    height: 340px; 
+    height: 443px; 
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -81,7 +91,7 @@ body{
 .paragraph-second-cabecalho{
     color: white;
     width: auto;
-    text-align: center;
+    text-align: justify;
     margin-left: 3px;
     margin-top: 28px;
     font-size: 20px;
@@ -90,8 +100,8 @@ body{
 
 .second-cabecalho-imagem{
     width: auto;
-    height: 60%; 
-    margin-top: 191px;
+    height: 470px; 
+    margin-top: 100px;
 }
 
 .text-center{
