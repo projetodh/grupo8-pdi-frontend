@@ -100,8 +100,8 @@ body{
 
 .second-cabecalho-imagem{
     width: auto;
-    height: 470px; 
-    margin-top: 100px;
+    height: 300px; 
+    margin-top: 227px;
 }
 
 .text-center{
@@ -112,7 +112,7 @@ body{
 }
 
 .text-center-item{
-    border-left: solid 2px #1C256D;
+    margin-top: 90px;
     width: auto;
     font-family: 'Cairo', sans-serif;
     font-size: 20px;
@@ -326,6 +326,10 @@ border-radius: 20px;
 
 }
 
+.imagem-comofuncionamos{
+    margin-top: 50px;
+    height: 30px;
+}
 .box-o{
     width: auto;
     box-sizing: border-box;
