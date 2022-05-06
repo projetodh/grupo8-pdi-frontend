@@ -24,6 +24,17 @@
 
 }
 
+.title-backend-content{
+    padding: 5px;
+    max-width: auto;
+    margin-bottom: 40px;
+
+}
+
+.container-content-backend{
+    margin-top: 15px;
+}
+
 .cursos-header{
     margin-top: 9px;
     width: 220px;

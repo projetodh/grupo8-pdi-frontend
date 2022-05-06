@@ -296,11 +296,32 @@ body{
 }
 
 .more-options-cursos{
-     border: solid;
-     margin-left: 90%;
-     margin-top: 19px;
-     width: 70px;
+    margin-left: 89%;
+    margin-top: 18px;
+    width: 105px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 2.5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
+
+.more-options-cursos:hover{
+    background: #2d3a95;
+}
+
+.more-options-cursos i{
+    color: black;
+}
+
+.more-options-cursos a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(9, 7, 7);
+    font-size: 19px;
+    transition: all 0.3s ease-in-out;
+}
+
 
 .title-second-part{
     font-family: 'Courier Prime', monospace;
@@ -318,13 +339,6 @@ border-radius: 20px;
     margin-top: 40px;
  }
 
-.more-options-cursos{
-    border: solid;
-    margin-left: 90%;
-    margin-top: 10px;
-    width: 70px;
-
-}
 
 .imagem-comofuncionamos{
     margin-top: 50px;
