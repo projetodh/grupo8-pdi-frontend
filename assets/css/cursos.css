@@ -28,7 +28,7 @@ a:hover{
     color: #9674c3;
 }
 
-a {
+header a {
     margin-right: 50px;
     color: rgb(241, 238, 255);
     text-decoration: none;
