@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Courier+Prime:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -61,4 +63,88 @@
     font-size: 13px;
     color: #FFFFFF;
     border-radius: 5px;
+}
+.sobreguias {
+
+    background-color: #EAEDF3BF;
+    text-align: left;
+    padding: 4%;
+    width: 100%;
+}
+.sobreguias img {
+
+width: 38%;
+
+}
+.sobreguias p {
+
+    font-family: 'Cairo';
+    padding-top: 1%;
+}
+footer {
+
+    background-color: #1C256D;
+    font-family: 'Courier Prime';
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+
+}
+.palavrinhas {
+
+    color: #ffffff;
+    width: 45%;
+    text-align: right;
+    float: right;
+    margin-right: 95px;
+
+}
+.palavrinhas h4 {
+    color: #D44A4A;
+    text-align: start;
+}
+.palavrinhas h5 {
+    color:#ffffff;
+    text-align: end;
+}
+.socialmedia {
+
+    color: #FFFFFF;
+    width: 95%;
+    text-align: left;
+    float: left;
+    margin-left: 35px;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+
+
+}
+.socialmedia-h5{
+
+    margin-left: 10px;
+    font-family: Verdana;
+    font-style: bold;
+
+}
+.socialmedia ul {
+
+    display: flex;
+
+}
+.socialmedia li {
+
+    list-style-type: none;
+    padding-right: 1%;
+
+}
+.copyright {
+
+    color:#c4c6c6;
+    width: 50%;
+    padding-top: 12%;
+    margin-left: 45px;
+    text-align: start;
+    font-style: italic;
+
 }
