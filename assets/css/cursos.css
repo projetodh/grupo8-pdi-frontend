@@ -6,6 +6,47 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgba(243, 244, 255, 0.9);
+
+}
+
+header {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #1C256D;
+    justify-content: space-between;
+    font-family: 'Cairo', sans-serif;
+    height: 50px;
+    padding-top: 7px; 
+    cursor: pointer;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #9674c3;
+}
+
+a {
+    margin-right: 50px;
+    color: rgb(241, 238, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#guia{
+    border-right: solid 2px #404fc1;
+    padding-right: 35px;
+}
+
+.logo{
+    width: 185px;
+    height: 35px;
+    vertical-align: top;
+    margin-left: 45px;
+}
+
 .container-cursos-item{
     border: solid 0px;
     box-shadow: 5px 5px 10px darkgray;
