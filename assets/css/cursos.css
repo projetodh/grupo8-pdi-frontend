@@ -201,7 +201,7 @@ footer {
 
 }
 
-.bloco-1{
+.bloco-1 {
     border: solid 0px;
     box-shadow: 5px 5px 10px darkgray;
     width: 230px;
@@ -211,7 +211,7 @@ footer {
     border: solid;
     width: 230px;
     height: 200px;
-    text-align: center; 
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,7 +219,7 @@ footer {
     margin: 0 auto;
 }
 
-.bloco-2{
+.bloco-2 {
     border: solid 0px;
     box-shadow: 5px 5px 10px darkgray;
     width: 230px;
@@ -229,7 +229,7 @@ footer {
     border: solid;
     width: 230px;
     height: 200px;
-    text-align: center; 
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,7 +237,7 @@ footer {
     margin: 0 auto;
 }
 
-.bloco-3{
+.bloco-3 {
     border: solid 0px;
     box-shadow: 5px 5px 10px darkgray;
     width: 230px;
@@ -247,7 +247,7 @@ footer {
     border: solid;
     width: 230px;
     height: 200px;
-    text-align: center; 
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -255,26 +255,33 @@ footer {
     margin: 0 auto;
 }
 
-.inscrever{
-border: solid;
-margin-left: 2;
+.inscrever {
+    margin: 0 auto;
 
 
 }
 
-.titlehtml{
-text-align: center;
-font-family: 'Courier Prime', monospace;
-font-size: 25px;
-}
-.titlecss{
+.titlecursos {
     text-align: center;
     font-family: 'Courier Prime', monospace;
     font-size: 25px;
+    margin: 0 auto;
 }
 
-.titlebootstrap{
-    text-align: center;
-    font-family: 'Courier Prime', monospace;
-    font-size: 25px;
+.botao {
+    align-items: center;
+    border-radius: 25px;
+    width: 150px;
+    height: 30px;
+    font-size: small;
+    color: aliceblue;
+    background-color: #1C256D;
+    border-radius: 8px;
+
+
+}
+
+.trilhaFront{
+margin-bottom: 50px;
+
 }
