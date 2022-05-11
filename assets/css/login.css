@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Courier+Prime:wght@700&display=swap');
 
 body{
     background-color: #ffffff;
@@ -6,31 +6,71 @@ body{
     margin: 0;
 }
 
+.cabecalho{
+    background-color: #1C256D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
 
-.image{
+.cabecalho-menu-item {
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    color: #FFF2E7;
+    font-weight: 250px;
+    font-size: 19px;
+    margin-right: 5px;
+    cursor: pointer;
+}
 
+.cabecalho-menu-item:hover{
+    color: #7b86de;
+}
+
+.cabecalho-menu-item {
+    display: flex;
+    gap: 40px;
+}  
+
+.imagem-cabecalho{
+    width: 230px;
+    height: 40px;
+    vertical-align: top;
+    padding: 7px 0px 4px 13px; 
+}
+
+.content-page{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+/*.image{
+    margin-left: 177px;
+    margin-top: 50px;
     position: absolute;
     box-sizing: border-box;
 
 }
 
 img{
-    border: solid;
-    width: 700px;
-    height: 613.7px
-}
+    width: 450px;
+    height: 495px;
+    border-radius: 15px 0px 0px 15px;
+}*/
 
 
 form{
     box-sizing: border-box;
     width: 450px;
-    margin-left: 730px;
+    margin: 0 auto;
     padding-top: 50px;
 }
 
 .container{
     box-sizing: border-box;
-    border: solid;
     box-shadow: 1px 1px 5px darkgray;
     background-color: #E9F0FF;
     padding: 30px;
@@ -43,10 +83,12 @@ form{
 
 .container-top p{
     font-family: 'Cairo', sans-serif;
+    font-size: 17px;
 }
 
 .container-top h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier Prime', monospace;
+    font-size: 30px;
 }
 
 
@@ -139,6 +181,7 @@ form{
     outline: none;
     padding: 10px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 footer{
@@ -148,4 +191,9 @@ footer{
 }
 
 .forgot-password{
+    
+}
+
+.forgot-password span, a{
+    text-decoration: none;
 }
