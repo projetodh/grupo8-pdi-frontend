@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Courier+Prime:wght@700&display=swap');
+
+body{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.cabecalho{
+    background-color: #1C256D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.cabecalho-menu-item {
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    color: #FFF2E7;
+    font-weight: 250px;
+    font-size: 19px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.cabecalho-menu-item:hover{
+    color: #7b86de;
+}
+
+.cabecalho-menu-item {
+    display: flex;
+    gap: 40px;
+}  
+
+.imagem-cabecalho{
+    width: 230px;
+    height: 40px;
+    vertical-align: top;
+    padding: 7px 0px 4px 13px; 
+}
+form{
+    
+    box-sizing: border-box;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-family: 'Cairo';
+
+}
+.container{
+
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px darkgray;
+    background-color: #E9F0FF;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.container-top{
+
+    text-align: center;
+
+}
+.container-top p{
+
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+
+}
+.container-top h2{
+
+    font-family: 'Courier Prime', monospace;
+    font-size: 30px;
+    color: #D44A4A;
+
+}
+.container-name-group input{
+
+    border-radius: 10px;
+    outline: 1;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+
+}
+.container-name-group label{
+
+    width: 50%;
+    color:rgb(36, 36, 36);
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: relative;
+
+
+}
+.container-email-group input{
+
+    border-radius: 10px;
+    outline: 1;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+
+}
+.container-email-group label{
+
+    width: 50%;
+    color:rgb(36, 36, 36);
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: relative;
+
+
+}
+.container-birthday-group input{
+
+    border-radius: 10px;
+    outline: 1;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+
+}
+.container-birthday-group label{
+
+    width: 50%;
+    color:rgb(36, 36, 36);
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+.container-gender-group input{
+
+    border-radius: 10px;
+    outline: 1;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+
+}
+.container-gender-group label{
+
+    width: 50%;
+    color:rgb(36, 36, 36);
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+.container-createpassword-group input{
+
+    border-radius: 10px;
+    outline: 1;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+
+}
+.container-password-group label{
+
+    width: 50%;
+    color:rgb(36, 36, 36);
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+.container-email-group{
+
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+.container-password-group{
+
+    margin-top: 30px;
+
+}
+.container-password-group span {
+
+    position: absolute;
+    cursor: pointer;
+    border: solid;
+    margin-left: 375px;
+    margin-bottom: 10px;
+
+}
+.remember-password{
+
+    display: flex;
+    margin-top: 10px ;
+    text-align: start;
+    width: 50%;
+
+}
+.container-button{
+
+    border-radius: 10px;
+    outline: 0;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-top: 25px;
+
+}
+.return-to-login{
+
+    float: right;
+
+}
+.return-to-login a{
+
+    text-decoration: none;
+    color: #1C256D;
+
+}
+.container-button button{
+
+    background-color: #D44A4A;
+    display: inline-block;
+    width: 100%;
+    color: #dedfe2;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+footer {
+
+    background-color: #1C256D;
+    font-family: 'Courier Prime';
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+
+}
+.socialmedia {
+
+    color: #FFFFFF;
+    width: 50%;
+    text-align: left;
+    float: left;
+    margin-left: 35px;
+    padding-bottom: 1%;
+
+
+}
+.socialmedia-h5{
+
+    margin-left: 10px;
+    font-family: Verdana;
+    font-style: bold;
+
+}
+.socialmedia ul {
+
+    display: flex;
+
+}
+.socialmedia li {
+
+    list-style-type: none;
+    padding-right: 1%;
+
+}
+.copyright {
+
+    color:#c4c6c6;
+    width: 50%;
+    margin-left: 45px;
+    text-align: end;
+    margin-right: 35px;
+    font-style: italic;
+    float: right;
+
+}
