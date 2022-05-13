@@ -163,6 +163,18 @@ form{
 
 }
 
+.return-to-login{
+
+    float: right;
+
+}
+.return-to-login a{
+
+    text-decoration: none;
+    color: #1C256D;
+
+}
+
 .container-button{
     border-radius: 10px;
     outline: 0;
