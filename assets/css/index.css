@@ -119,6 +119,17 @@ body{
 
 }
 
+.container-cursos-item{
+    position:relative;
+    border: solid 0px;
+    width: 230px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F4F8FF;
+    transition: 0.6s;
+    box-shadow: 5px 5px 10px darkgray;
+}
+
 .container-cursos-item::after{
     border: solid;
     width: 230px;
@@ -133,17 +144,6 @@ body{
 
 .container-cursos-item:hover{
     transform:scale(1.10,1.10);
-    box-shadow: 5px 5px 10px darkgray;
-}
-
-.container-cursos-item{
-    position:relative;
-    border: solid 0px;
-    width: 230px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #F4F8FF;
-    transition: 0.6s;
     box-shadow: 5px 5px 10px darkgray;
 }
 
