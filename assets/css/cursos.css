@@ -132,6 +132,7 @@ width: 38%;
 
     font-family: 'Cairo';
     padding-top: 1%;
+    width: auto;
 }
 footer {
 
@@ -140,29 +141,61 @@ footer {
     padding-top: 5%;
     padding-bottom: 10%;
     width: 100%;
+    height: 63%;
+    display: flex;
+    justify-content: space-around;
 
 }
+
+.content-footer {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 70%;
+    align-items: center;
+}
+
+.conceito {
+
+    color: #FFFFFF;
+    width: auto;
+    text-align: start;
+    float: left;
+    margin-left: 45px; 
+    font-family: Cairo;
+}
+
+.conceito h6 {
+    font-size: 15px;
+    text-align: left;
+    width: auto;
+
+}
+
 .palavrinhas {
 
-    color: #ffffff;
+    color: #f9f9f9;
     width: 45%;
     text-align: right;
     float: right;
-    margin-right: 95px;
+    margin-right: 90px;
 
 }
 .palavrinhas h4 {
+    
     color: #D44A4A;
     text-align: start;
 }
 .palavrinhas h5 {
-    color:#ffffff;
+
     text-align: end;
+
 }
 .socialmedia {
 
     color: #FFFFFF;
     width: 95%;
+    height: auto;
     text-align: left;
     float: left;
     margin-left: 35px;
@@ -177,6 +210,8 @@ footer {
     margin-left: 10px;
     font-family: Verdana;
     font-style: bold;
+    font-size: 15px;
+    margin-top: 10px;
 
 }
 .socialmedia ul {
@@ -193,9 +228,8 @@ footer {
 .copyright {
 
     color:#c4c6c6;
-    width: 50%;
-    padding-top: 12%;
-    margin-left: 45px;
+    width: auto;
+    margin-right: 55%;
     text-align: start;
     font-style: italic;
 
@@ -284,4 +318,106 @@ footer {
 .trilhaFront{
 margin-bottom: 50px;
 
+}
+
+@media only screen and (max-width: 768px) {
+    .cabecalho {
+        display: none;
+    }
+
+    .bloco-3 {
+        margin-top: 13px;
+    }
+
+    .container-content-backend {
+        flex-wrap: wrap;
+    }
+
+    .palavrinhas {
+        display: none;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .palavrinhas {
+        display: none;
+    }
+
+    .socialmedia ul {
+        display: flex;
+        justify-content: center;
+    }
+    .socialmedia-h5 {
+        margin-left: 44%;
+    }
+
+    .content-footer {
+        flex-direction: column;
+    }
+
+    .sobreguias img {
+
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .bloco-2 {
+        margin-top: 13px;
+    }
+
+    .sobreguias {
+        height: auto;
+    }
+
+
+    .sobreguias img {
+
+        width: 65%;
+        margin-top: 10px;
+    }
+
+    .sobreguias p {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .socialmedia ul {
+        margin-left: -18%;
+    }
+
+    .socialmedia-h5 {
+        margin-left: 28%;
+    }
+
+    .conceito {
+        margin-left: 0;
+    }
+
+    .conceito h6 {
+        font-size: 14px;
+        text-align: left;
+        margin-left: 3%;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 375px) {
+    .title-backend-content img {
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .title-backend-content img {
+        width: 226px;
+    }
 }
