@@ -597,7 +597,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1120px) {
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
     .text-second-cabecalho{
         margin-left: 12%;
         font-size: 5px;
@@ -611,7 +611,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 993px) and (max-width: 1020px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
 
     .recursos-img{
         display: none;
@@ -635,7 +635,14 @@ footer {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+.imagem-cabecalho {
+    width: 14rem;
+    height: 2rem;
+    vertical-align: top;
+    padding-top: 0.2rem;
+}
     .second-cabecalho-imagem {
         display: none;
     }
@@ -648,21 +655,23 @@ footer {
 
     .second-cabecalho {
         align-items: center;
-        height: 288px;
+        height: auto;
     }
 
     .paragraph-second-cabecalho {
         margin: 0 auto;
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 17px;
+        width: 122%;
+        margin-left: -1rem;
     }
 
     .imagem-cab2 {
         margin: 0 auto;
-        width: 107%;
-        margin-top: 25px;
-    
+        width: 137%;
+        margin-left: -40px;
     }
+    
 
     .cabecalho-menu-item {
         display: none;
@@ -699,6 +708,10 @@ footer {
         font-size: 5px;
     }
 
+    .more-options-cursos {
+        width: 20%;
+    }
+
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
@@ -717,7 +730,7 @@ footer {
 
     .second-cabecalho {
         align-items: center;
-        height: 250px;
+        height: auto;
     }
 
     .text-second-cabecalho{    
@@ -726,15 +739,14 @@ footer {
     .paragraph-second-cabecalho {
         margin: 0 auto;
         margin-top: 20px;
-        font-size: 14px;
-        width: auto;
-        margin-left: 12px;
+        font-size: 16px;
+        width: 162%;
+        margin-left: -2rem;
     }
 
     .imagem-cab2 {
-        margin: 0 auto;
-        width: 100%;
-        margin-top: 25px;
+        width: 189%;
+        margin-left: -57px;
     }
 
     footer {
@@ -764,6 +776,10 @@ footer {
         font-size: 5px;
     }
 
+    .more-options-cursos {
+        width: 31%;
+    }
+
 
 }
 
@@ -775,6 +791,14 @@ footer {
     .cabecalho-menu-item {
         display: none;
     }
+
+    .imagem-cabecalho {
+        width: 12rem;
+        height: 2rem;
+        vertical-align: top;
+        padding-top: 0.2rem;
+    }
+
     .second-cabecalho-imagem {
         display: none;
     }
@@ -799,16 +823,21 @@ footer {
         margin: 0 auto;
         margin-top: 20px;
         font-size: 15px;
-        width: auto;
-        margin-left: 12px;
+        width: 138%;
+        margin-left: -1.2rem;
     }
 
     .imagem-cab2 {
-        width: 110%;
+        width: 154%;
+        margin-left: -38px;
     }
 
     .container-cursos-item {
         width: 100%;
+    }
+
+    .more-options-cursos {
+        width: 36%;
     }
 
     footer {
@@ -844,6 +873,14 @@ footer {
     .cabecalho-menu-item {
         display: none;
     }
+
+    .imagem-cabecalho {
+        width: 11rem;
+        height: 2rem;
+        vertical-align: top;
+        padding-top: 0.2rem;
+    }
+
     .second-cabecalho-imagem {
         display: none;
     }
@@ -868,12 +905,28 @@ footer {
         margin: 0 auto;
         margin-top: 20px;
         font-size: 15px;
-        width: auto;
-        margin-left: 12px;
+        width: 151%;
+        margin-left: -1.2rem;
     }
 
     .imagem-cab2 {
-        width: 110%;
+        width: 177%;
+        margin-left: -38px;
+    }
+
+    .more-options-cursos {
+        width: 45%;
+    }
+
+    .imagem-comofuncionamos {
+        margin-left: -1rem;
+        height: 25px;
+    }
+
+    .imagem-recursos {
+        height: 28px;
+        width: 100%;
+        margin-left: 0rem;
     }
 
     footer {
@@ -887,16 +940,29 @@ footer {
         display: none;
     }
 
+    .conceito h6 {
+        font-size: 15px;
+        text-align: left;
+        width: 88%;
+    }
+
+    .socialmedia {
+        margin-left: 24px;
+    }
+
     .socialmedia ul {
         display: flex;
         justify-content: center;
+        margin-right: 16%;
     }
+
     .socialmedia-h5 {
-        margin-left: 44%;
+        margin-left: 28%;
     }
 
     .content-footer {
         flex-direction: column;
+        width: 89%;
     }
 
     footer.content-footer.conceito.palavrinhas {
@@ -921,20 +987,10 @@ footer {
     }
 
     .container-cursos-item {
-        width: 100%;
+        width: 108%;
     }
 
     .box-blue-o.box-red-t.box-red-tt.box-blue-f {
         width: 35%;
-    }
-}
-
-@media only screen and (min-width: 1040) and (max-width: 1199) {
-    .recursos-text-one{
-     justify-content: center;
-    }
-
-    .recursos-box-one {
-        margin-top: 20px;
     }
 }
