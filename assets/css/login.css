@@ -1,294 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Courier+Prime:wght@700&display=swap');
 
-body{
-    background-color: #ffffff;
+*{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FCFDFF;
 }
 
-.cabecalho{
+/*parte do cabecalho*/
+header{
     background-color: #1C256D;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1px;
 }
 
-.cabecalho-menu-item {
+#logo1{
+    margin-left: 0.2%;
+    width: 245px;
+}
+
+.voltar{
+    margin-left: 70%;
     text-decoration: none;
-    font-family: 'Cairo', sans-serif;
-    color: #FFF2E7;
-    font-weight: 250px;
-    font-size: 19px;
-    margin-right: 5px;
+    color:#dbe6ff;
     cursor: pointer;
 }
 
-.cabecalho-menu-item:hover{
-    color: #7b86de;
+.voltar:hover{
+    color:#9c9fd7;
 }
 
-.cabecalho-menu-item {
-    display: flex;
-    gap: 40px;
-}  
-
-.imagem-cabecalho{
-    width: 230px;
-    height: 40px;
-    vertical-align: top;
-    padding: 7px 0px 4px 13px; 
-}
-
-.content-page{
-    display: flex;
-    margin: 0 auto;
-}
-
-
-/*.image{
-    margin-left: 177px;
-    margin-top: 50px;
-    position: absolute;
-    box-sizing: border-box;
-
-}
-
-img{
-    width: 450px;
-    height: 495px;
-    border-radius: 15px 0px 0px 15px;
-}*/
-
-
+/*Parte de login*/
 form{
+    font-family: 'Cairo', sans-serif;
     box-sizing: border-box;
-    width: 450px;
+    width: 550px;
+    height: 630px;
     margin: 0 auto;
     padding-top: 50px;
-    
-}
-
-.container{
-    box-sizing: border-box;
-    box-shadow: 1px 1px 5px darkgray;
     background-color: #E9F0FF;
-    padding: 25px;
-    border-radius: 20px;
-    margin-bottom: 50px;
-}
-
-.container-top{
-    text-align: center;
-}
-
-.container-top p{
-    font-family: 'Cairo', sans-serif;
-    font-size: 17px;
-}
-
-.container-top h2{
-    font-family: 'Courier Prime', monospace;
-    font-size: 30px;
-}
-
-
-.container-email-group input{
+    border: solid #b9d0fd;
     border-radius: 10px;
-    outline: 1;
+    color: #010b4e;
+}
+
+.login{
+    margin-left: 8%;
+    text-align: justify;
+}
+
+.escreva{
+    width:93%;
+    margin-top: 2%;
     border: none;
-    width: 100%;
-    height: 30px;
-    padding: 5px;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: #ced8eb;
 }
 
-.container-email-group label{
-    width: 50%;
-    color:rgb(36, 36, 36);
-    display: block;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    position: relative;
-
-}
-
-.container-password-group input{
-    border-radius: 10px;
-    outline: 1;
-    border: none;
-    width: 100%;
-    height: 30px;
-    padding: 5px;
-}
-
-.container-password-group label{
-    width: 50%;
-    color:rgb(36, 36, 36);
-    display: block;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    position: relative;
-
-
-}
-
-.container-email-group{
-    margin-bottom: 10px;
-    margin-top: 30px;
-}
-
-.container-password-group{
-    margin-top: 30px;
-}
-
-.container-password-group span {
-    position: absolute;
+.botao{
     cursor: pointer;
-    border: solid;
-    margin-left: 375px;
-    margin-bottom: 10px;
-
-}
-
-.remember-password{
-    display: flex;
-    margin-top: 15px ;
-    text-align: center;
-}
-
-.remember-password input{
-
-}
-
-.remember-password span{
-
-}
-
-.return-to-login{
-
-    float: right;
-
-}
-.return-to-login a{
-
-    text-decoration: none;
-    color: #1C256D;
-
-}
-
-.container-button{
-    border-radius: 10px;
-    outline: 0;
-    border: none;
-    width: 100%;
-    height: 30px;
-    padding: 5px;
-    margin-top: 25px;
-}
-
-.container-button button{
+    padding: 3%;
+    width:85%;
+    border-radius: 5px;
+    color:#E9F0FF;
     background-color: #1C256D;
-    display: inline-block;
-    width: 100%;
-    color: #dedfe2;
-    outline: none;
-    padding: 10px;
-    border-radius: 30px;
-    cursor: pointer;
+    border: none;
 }
 
-.forgot-password{
-    margin-top: 30px;
-    text-align: center;
-    padding: 1px;
-    
+.botao:hover{
+    color:#dbe6ff;
+    background-color: #010b4e;
 }
 
-.forgot-password span, a{
-    text-decoration: none;
+.perguntas{
+    font-weight: bold;
+    color: #010b4e;
 }
 
+.perguntas:hover{
+    color: #4b5381;
+}
+
+/*parte do rodapé*/
 footer {
-    border: solid 2px;
+    font-size: 12px;
+    color: #FCFDFF;
     background-color: #1C256D;
-    font-family: 'Courier Prime';
-    padding-top: 5%;
-    padding-bottom: 10%;
-    width: 100%;
+}
+
+.frases{
+    font-family: 'Cairo', sans-serif;
+    padding-left: 12%;
+}
+
+.texto{
+    font-family: 'Cairo', sans-serif;
+    margin-left: 5%; 
+    text-align: justify;
+}
+
+.h{
+    font-family: 'Cairo', sans-serif;
+    margin-left: 2.5%;  
+    text-align: justify;
+}
+
+.links{
+    margin-left: 40px;
+    font-size: medium;
 
 }
-.conceito {
 
-    color: #FFFFFF;
-    width: 35%;
-    text-align: start;
-    float: left;
-    margin-left: 45px; 
-    font-family: Cairo;
-
+#cop h6{
+    font-family: 'Cairo', sans-serif;
+    margin-left: 2.5%;  
 }
-.palavrinhas {
 
-    color: #f9f9f9;
-    width: 45%;
-    text-align: right;
-    float: right;
-    margin-right: 95px;
-
-}
-.palavrinhas h4 {
-    
-    color: #D44A4A;
-    text-align: start;
-}
-.palavrinhas h5 {
-
-    text-align: end;
-
-}
-.socialmedia {
-
-    color: #FFFFFF;
-    width: 95%;
-    text-align: left;
-    float: left;
-    margin-left: 35px;
-    padding-top: 2%;
-    padding-right: 1%;
-    padding-bottom: 2%;
-
-
-}
-.socialmedia-h5{
-
-    margin-left: 10px;
-    font-family: Verdana;
-    font-style: bold;
-
-}
-.socialmedia ul {
-
+#cop{
     display: flex;
-
-}
-.socialmedia li {
-
-    list-style-type: none;
-    padding-right: 1%;
-
-}
-.copyright {
-
-    color:#c4c6c6;
-    width: 50%;
-    padding-top: 12%;
-    margin-left: 45px;
-    text-align: start;
-    font-style: italic;
-
+    flex-direction: row; 
+    align-items: center;
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1200px) {
-    
+#titulo{
+    color: #D44A4A;
+}
+
+/*tornando ela responsiva*/
+
+@media (min-width: 850px){
+    #seta{
+        display: none;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 850px){
+
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        background-color: #1c256d;
+        align-items: center;
+    }
+    .voltar{
+        display: none;
+    }
+
+    #logo1{
+        width: 200px;
+    }
+
+    #seta{ 
+        width:80px;
+    }
+
+    .texto{
+        margin-right: 15px;
+    }
+
+    .frases{
+        display: none;
+    }
+
+    form{
+        width: 355px;
+        height: 550px;
+    }
+
+    .h{
+        text-align: center;
+    }  
+
+    #cop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links{
+        text-align: center;
+        margin-right: 30px;
+    }  
 }
