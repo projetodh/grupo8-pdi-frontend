@@ -84,7 +84,7 @@ body{
     text-align: justify;
     margin-left: 3px;
     margin-top: 28px;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-family: 'Cairo', sans-serif;
     margin: 28px 0 0 3px;
 }
@@ -106,7 +106,7 @@ body{
     margin-top: 90px;
     width: auto;
     font-family: 'Cairo', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
 
 }
 
@@ -501,9 +501,9 @@ footer {
     background-color: #1C256D;
     font-family: 'Courier Prime';
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
     width: 100%;
-    height: 63%;
+    height: auto;
     display: flex;
     justify-content: space-around;
 
@@ -598,9 +598,21 @@ footer {
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 2560px) {
+    .imagem-cabecalho {
+        width: 16rem;
+        height: 2.2rem;
+        vertical-align: top;
+        padding-top: 0.2rem;
+    }
+
     .text-second-cabecalho{
         margin-left: 12%;
         font-size: 5px;
+    }
+
+    .imagem-cab2 {
+        margin: 0 auto;
+        width: 40rem;
     }
 
     .recursos-img{
@@ -608,10 +620,36 @@ footer {
         flex-direction: column;
     }
 
+    .conceito h6 {
+        font-size: 1.2rem;
+        text-align: left;
+        width: 94%;
+        margin-right: 14rem;
+    }
+
+    .socialmedia-h5 {
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        margin-right: 66%;
+    }
+
+    .copyright h6 {
+        font-size: 1.2rem;
+    }
+
 
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .imagem-cabecalho {
+    width: 15.2rem;
+    height: 2rem;
+    vertical-align: top;
+    padding-top: 0.2rem;
+    }
 
     .recursos-img{
         display: none;
@@ -632,6 +670,42 @@ footer {
 
     .text-second-cabecalho{
         margin-left: 12%;
+    }
+
+    .paragraph-second-cabecalho {
+        font-size: 1.3rem;
+    }
+
+    .imagem-cab2 {
+        margin: 0 auto;
+        width: 31rem;
+    }
+
+    .more-options-cursos {
+        width: 11%;
+    }
+
+    .conceito h6 {
+        font-size: 1.1rem;
+        text-align: left;
+        width: 94%;
+        margin-right: 13rem;
+    }
+
+    .socialmedia {
+        margin-left: 41px;
+    }
+
+    .socialmedia-h5 {
+        font-size: 1.1rem;
+    }
+
+    .copyright {
+        margin-right: 56%;
+    }
+
+    .copyright h6 {
+        font-size: 1.1rem;
     }
 }
 
@@ -749,6 +823,18 @@ footer {
         margin-left: -57px;
     }
 
+    .imagem-comofuncionamos {
+        margin-top: 50px;
+        height: 30px;
+        margin-left: 0.4rem;
+    }
+    
+    .imagem-recursos {
+        height: 34px;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
     footer {
         height: auto;
         flex-direction: column;
@@ -763,6 +849,7 @@ footer {
     .socialmedia ul {
         display: flex;
         justify-content: center;
+        margin-right: 20%;
     }
     .socialmedia-h5 {
         margin-left: 44%;
@@ -772,12 +859,32 @@ footer {
         flex-direction: column;
     }
 
-    footer.content-footer.conceito.palavrinhas {
-        font-size: 5px;
-    }
-
     .more-options-cursos {
         width: 31%;
+    }
+
+    .conceito h6 {
+        font-size: 1rem;
+        text-align: left;
+        width: 94%;
+        margin-right: 15rem;
+    }
+
+    .socialmedia {
+        margin-left: 41px;
+    }
+
+    .socialmedia-h5 {
+        font-size: 1rem;
+        margin-left: 25%;
+    }
+
+    .copyright {
+        margin-right: 56%;
+    }
+
+    .copyright h6 {
+        font-size: 0.9rem;
     }
 
 
@@ -832,12 +939,27 @@ footer {
         margin-left: -38px;
     }
 
+    .text-center-item {
+        font-size: 1.3rem;
+    }
+
     .container-cursos-item {
-        width: 100%;
+        width: 90%;
     }
 
     .more-options-cursos {
         width: 36%;
+    }
+
+    .imagem-comofuncionamos {
+        margin-left: 0.2rem;
+        height: 26px;
+    }
+
+    .imagem-recursos {
+        height: 28px;
+        width: 100%;
+        margin-left: 0rem;
     }
 
     footer {
@@ -854,19 +976,36 @@ footer {
     .socialmedia ul {
         display: flex;
         justify-content: center;
-    }
-    .socialmedia-h5 {
-        margin-left: 44%;
-    }
-
+        margin-right: 25%;
+    } 
+    
     .content-footer {
         flex-direction: column;
     }
 
-    footer.content-footer.conceito.palavrinhas {
-        font-size: 5px;
+    .conceito h6 {
+        font-size: 0.9rem;
+        text-align: left;
+        width: 94%;
+        margin-right: 14rem;
     }
 
+    .socialmedia {
+        margin-left: 41px;
+    }
+
+    .socialmedia-h5 {
+        font-size: 0.9rem;
+        margin-left: 25%;
+    }
+
+    .copyright {
+        margin-right: 56%;
+    }
+
+    .copyright h6 {
+        font-size: 0.9rem;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
@@ -914,6 +1053,10 @@ footer {
         margin-left: -38px;
     }
 
+    .text-center-item {
+        font-size: 1rem;
+    }
+
     .more-options-cursos {
         width: 45%;
     }
@@ -939,34 +1082,40 @@ footer {
     .palavrinhas {
         display: none;
     }
-
-    .conceito h6 {
-        font-size: 15px;
-        text-align: left;
-        width: 88%;
-    }
-
-    .socialmedia {
-        margin-left: 24px;
-    }
-
+    
     .socialmedia ul {
         display: flex;
         justify-content: center;
-        margin-right: 16%;
-    }
-
-    .socialmedia-h5 {
-        margin-left: 28%;
-    }
-
+        margin-right: 25%;
+    } 
+    
     .content-footer {
         flex-direction: column;
         width: 89%;
     }
 
-    footer.content-footer.conceito.palavrinhas {
-        font-size: 5px;
+    .conceito h6 {
+        font-size: 0.9rem;
+        text-align: left;
+        width: 88%;
+        margin-right: 9rem;
+    }
+
+    .socialmedia {
+        margin-left: 41px;
+    }
+
+    .socialmedia-h5 {
+        font-size: 0.9rem;
+        margin-left: 25%;
+    }
+
+    .copyright {
+        margin-right: 0%;
+    }
+
+    .copyright h6 {
+        font-size: 0.8rem;
     }
 
 }
