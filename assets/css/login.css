@@ -11,22 +11,22 @@ body{
 
 /*parte do cabecalho*/
 header{
+    display: flex;
+    align-items: center;
     background-color: #1C256D;
 }
 
 #logo1{
-    margin-left: 0.2%;
     width: 245px;
 }
 
-.voltar{
-    margin-left: 70%;
+#voltar{
     text-decoration: none;
     color:#dbe6ff;
     cursor: pointer;
 }
 
-.voltar:hover{
+#voltar:hover{
     color:#9c9fd7;
 }
 
@@ -144,7 +144,7 @@ footer {
         background-color: #1c256d;
         align-items: center;
     }
-    .voltar{
+    #voltar{
         display: none;
     }
 
