@@ -47,7 +47,43 @@ header a {
     margin-left: 45px;
 }
 
-.container-cursos-item{
+.container-cursos-item1{
+    border: solid 0px;
+    box-shadow: 5px 5px 10px darkgray;
+    width: 230px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F4F8FF;
+    border: solid;
+    width: 230px;
+    height: 200px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-cursos-item2{
+    border: solid 0px;
+    box-shadow: 5px 5px 10px darkgray;
+    width: 230px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F4F8FF;
+    border: solid;
+    width: 230px;
+    height: 200px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-cursos-item3{
     border: solid 0px;
     box-shadow: 5px 5px 10px darkgray;
     width: 230px;
@@ -123,6 +159,7 @@ header a {
     padding: 4%;
     width: 100%;
 }
+
 .sobreguias img {
 
 width: 38%;
@@ -238,7 +275,6 @@ footer {
 .bloco-1 {
     border: solid 0px;
     box-shadow: 5px 5px 10px darkgray;
-    width: 230px;
     text-align: center;
     border-radius: 10px;
     background-color: #F4F8FF;
@@ -298,25 +334,70 @@ footer {
 .titlecursos {
     text-align: center;
     font-family: 'Courier Prime', monospace;
-    font-size: 25px;
+    font-size: 1.4rem;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 .botao {
     align-items: center;
-    border-radius: 25px;
-    width: 150px;
+    width: auto;
     height: 30px;
     font-size: small;
     color: aliceblue;
     background-color: #1C256D;
-    border-radius: 8px;
-
-
+    border-radius: 4px;
+    padding: 7px;
+    text-decoration: none;
 }
+
+
 
 .trilhaFront{
 margin-bottom: 50px;
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .logo{
+        width: 230px;
+        height: 34px;
+        vertical-align: top;
+        margin-left: 15px;
+    }
+
+    .sobreguias img {
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    .sobreguias p {
+        font-size: 1.3rem;
+        margin-top: 5px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .logo{
+        width: 230px;
+        height: 34px;
+        vertical-align: top;
+        margin-left: 15px;
+    }
+
+    .sobreguias img {
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    .sobreguias p {
+        font-size: 1.4rem;
+        margin-top: 5px;
+        text-align: justify;
+    }
+
 
 }
 
@@ -325,12 +406,46 @@ margin-bottom: 50px;
         display: none;
     }
 
+    .logo{
+        width: 200px;
+        height: 34px;
+        vertical-align: top;
+        margin-left: 13px;
+    }
+
+    .sobreguias img {
+        width: 58%;
+        margin-top: 10px;
+    }
+
+    .sobreguias p {
+        font-size: 1.07rem;
+        margin-top: 5px;
+        text-align: justify;
+    }
+
     .bloco-3 {
         margin-top: 13px;
     }
 
     .container-content-backend {
         flex-wrap: wrap;
+    }
+
+    .container-content-backend {
+        flex-wrap: wrap;
+    }
+
+    .container-cursos-item1 {
+        margin-top: 20px;
+    }
+
+    .container-cursos-item2 {
+        margin-top: 20px;
+    }
+
+    .container-cursos-item3 {
+        margin-top: 20px;
     }
 
     .palavrinhas {
@@ -359,14 +474,14 @@ margin-bottom: 50px;
     .content-footer {
         flex-direction: column;
     }
-
-    .sobreguias img {
-
-        width: 50%;
-    }
 }
 
 @media only screen and (max-width: 425px) {
+    .title-backend-content img {
+        width: 320px;
+        margin-left: -0.02rem;
+    }
+
     .bloco-2 {
         margin-top: 13px;
     }
@@ -375,16 +490,22 @@ margin-bottom: 50px;
         height: auto;
     }
 
+    .logo{
+        width: 183px;
+        height: 34px;
+        vertical-align: top;
+        margin-left: 13px;
+    }
 
     .sobreguias img {
-
-        width: 65%;
+        width: 100%;
         margin-top: 10px;
     }
 
     .sobreguias p {
-        font-size: 11px;
+        font-size: 0.92rem;
         margin-top: 5px;
+        text-align: justify;
     }
 
     .socialmedia ul {
@@ -413,11 +534,95 @@ margin-bottom: 50px;
 @media only screen and (max-width: 375px) {
     .title-backend-content img {
         width: 290px;
+        margin-left: -0.6rem;
+    }
+
+    .logo{
+        width: 173px;
+        height: 34px;
+        vertical-align: top;
+        margin-left: 13px;
+    }
+
+    .sobreguias img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .sobreguias p {
+        font-size: 0.92rem;
+        margin-top: 5px;
+        text-align: justify;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .title-backend-content img {
-        width: 226px;
+        width: 255px;
+        margin-left: -1.13rem;
+    }
+
+    .logo{
+        width: 165px;
+        height: 33px;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+
+    .sobreguias img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .sobreguias p {
+        font-size: 0.92rem;
+        margin-top: 5px;
+        text-align: justify;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .palavrinhas {
+        display: none;
+    }
+    
+    .socialmedia ul {
+        display: flex;
+        justify-content: center;
+        margin-right: 5%;
+    } 
+    
+    .content-footer {
+        flex-direction: column;
+        width: 89%;
+    }
+
+    .conceito h6 {
+        font-size: 0.9rem;
+        text-align: left;
+        width: 88%;
+        margin-right: 9rem;
+    }
+
+    .socialmedia {
+        margin-left: 41px;
+    }
+
+    .socialmedia-h5 {
+        font-size: 0.9rem;
+        margin-left: 25%;
+    }
+
+    .copyright {
+        margin-right: 0%;
+    }
+
+    .copyright h6 {
+        font-size: 0.8rem;
     }
 }
