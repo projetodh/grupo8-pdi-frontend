@@ -1328,3 +1328,130 @@ footer {
         width: 35%;
     }
 }
+
+.paragrafo-1 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Cairo', sans-serif;
+}
+
+.paragrafo-2 {
+    color: aliceblue;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    width: auto;
+}
+
+.paragrafo-3 {
+    padding-top: 3%;
+    color: aliceblue;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.paragrafo-final {
+    width: 50%;
+    text-align: center;
+    display: none;
+
+}
+
+.conjunto-paragrafo-final {
+    font-family: 'Cairo' sans-serif;
+    font-size: larger;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bloco1 {
+    width: 20rem;
+    height: 4.5rem;
+    font-size: large;
+    margin-bottom: 1rem;
+    padding-top: 0.3rem;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #1C256D;
+
+}
+
+.imagem{
+    width: 30rem;
+    height: auto;
+}
+
+.bloco2 {
+    margin-left: 15rem;
+    padding-bottom: 2.5rem;
+    width: 20rem;
+    height: 4.5rem;
+    font-size: large;
+    border-radius: 9px;
+    background-color: #D44A4A
+}
+
+
+
+@media (max-width:600px) {
+    col {
+        width: 100%;
+        height: 100%;
+    }
+
+.caixa-recursos{
+    text-align: center;
+}
+
+    .imagem-recursos {
+        
+        width: 60%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .imagem-fon {
+        display: none;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    .paragrafo-1 {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .bloco1 {
+        text-align: center;
+        margin: 0 auto;
+        width: 17rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .coluna-bloco-vermelho {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .bloco2 {
+        margin: 0 auto;
+        width: 17rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo-final {
+        margin: 0 auto;
+    }
+
+    .conjunto-paragrafo-final {
+        text-align: justify;
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+}
