@@ -110,22 +110,21 @@ body{
 
 }
 
-.container-cursos-item{
+
+.cards{
     position:relative;
     border: solid 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    max-width: 250px;
-    text-align: center;
     border-radius: 10px;
-    background-color: #F4F8FF;
-    transition: 0.6s;
-    box-shadow: 5px 5px 10px darkgray;
+    margin-left: 90px;
 }
 
-.container-cursos-item::after{
+.cartao{
+    width: 290px; 
+    box-shadow: 5px 5px 10px darkgray;
+    transition: 0.6s;
+}
+
+.cartao::after{
     border: solid;
     width: 20%;
     text-align: center;
@@ -137,43 +136,33 @@ body{
 
 }
 
-.container-cursos-item:hover{
+.cartao:hover{
     transform:scale(1.10,1.10);
     box-shadow: 5px 5px 10px darkgray;
 }
 
-.cursos-header{
-    text-align: center;
-    width: 230px;
-}
-
-.cursos-body-javascript{
-    margin-top: 10px;
-    
-}
-
 .title-body-javascript{
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Cairo', sans-serif;
     font-size: 25px;
-    text-align: center;
 }
 
 .paragaph-body-javascript{
     font-family: 'Cairo', sans-serif;
     font-size: 15px;
-    text-align: center;
     max-width: 210px;
 }
 
-.cursos-body-title-item1{
-    text-decoration: none;
-}
 
 .btn-footer-javascript{
     padding: 4px;
     width: 49%;
-   margin: auto;
-   margin-bottom: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.btn-footer-javascript:hover{
+    background-color:#261b6d66;
 }
 
 .btn-javascript{
@@ -184,127 +173,6 @@ body{
     color: #FFFFFF;
     border-radius: 5px;
 
-}
-
-.cursos-body-css{
-    margin-top: 10px;
-    
-}
-
-.title-body-css{
-    font-family: 'Courier Prime', monospace;
-    font-size: 25px;
-    text-align: center;
-}
-
-.paragaph-body-css{
-    font-family: 'Cairo', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    max-width: 210px;
-}
-
-.btn-footer-css{
-    padding: 4px;
-    width: 49%;
-   margin: auto;
-   margin-bottom: 10px;
-}
-
-.btn-css{
-    text-decoration: none;
-    background-color: #1C256D;
-    padding: 7px;
-    font-size: 13px;
-    color: #FFFFFF;
-    border-radius: 5px;
-
-}
-
-.cursos-body-html{
-    margin-top: 10px;
-    
-}
-
-.title-body-html{
-    font-family: 'Courier Prime', monospace;
-    font-size: 25px;
-    text-align: center;
-}
-
-.paragaph-body-html{
-    font-family: 'Cairo', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    max-width: 210px;
-}
-
-.btn-footer-html{
-    padding: 4px;
-    width: 49%;
-   margin: auto;
-   margin-bottom: 10px;
-}
-
-.btn-html{
-    text-decoration: none;
-    background-color: #1C256D;
-    padding: 7px;
-    font-size: 13px;
-    color: #FFFFFF;
-    border-radius: 5px;
-
-}
-
-
-.cursos-body-nodejs{
-    margin-top: 10px;
-    
-}
-
-.title-body-nodejs{
-    font-family: 'Courier Prime', monospace;
-    font-size: 25px;
-    text-align: center;
-}
-
-.paragaph-body-nodejs{
-    font-family: 'Cairo', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    max-width: 210px;
-}
-
-.btn-footer-nodejs{
-    padding: 4px;
-    width: 49%;
-   margin: auto;
-   margin-bottom: 10px;
-}
-
-.btn-nodejs{
-    text-decoration: none;
-    background-color: #1C256D;
-    padding: 7px;
-    font-size: 13px;
-    color: #FFFFFF;
-    border-radius: 5px;
-
-}
-
-.content-cursos{
-    margin-top: 40px;
-}
-
-.cursos-body-title-item1{
-    text-decoration: none;
-}
-.cursos-body-title-item2{
-    text-decoration: none;
-
-}
-.cursos-body-title-item3{
-    text-decoration: none;
 }
 
 .more-options-cursos{
@@ -319,7 +187,7 @@ body{
 }
 
 .more-options-cursos:hover{
-    background: #2d3a95;
+    background: #6f78c0;
 }
 
 .more-options-cursos i{
@@ -953,7 +821,7 @@ footer {
 
 }
 
-.container-cursos-item {
+#listaGuias  {
     width: 100%;
 }
 
@@ -1006,8 +874,8 @@ footer {
         font-size: 1.3rem;
     }
 
-    .container-cursos-item {
-        width: 90%;
+    .cartao  {
+        width: 80%;
     }
 
     .more-options-cursos {
@@ -1312,17 +1180,11 @@ footer {
         flex-wrap: wrap;
     }
 
-    .container-cursos-item {
-        margin-bottom: 32px;
+    #listaGuias {
+        display: flex;
+        flex-direction: column;
     }
 
-    .container-cursos-item:last-child {
-
-    }
-
-    .container-cursos-item {
-        width: 108%;
-    }
 
     .box-blue-o.box-red-t.box-red-tt.box-blue-f {
         width: 35%;
