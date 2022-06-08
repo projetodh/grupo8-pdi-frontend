@@ -16,7 +16,7 @@
          <nav class="cabecalho-menu-item">
              <a href="index.html" class="cabecalho-menu-item"> Voltar à página inicial</a>
     </header>
-    <form id="form">
+    <form id="form" method="post">
         <div class="container">
             <div class="container-top">
                 <h2> Registrar-se </h2>
@@ -25,13 +25,13 @@
             <!--<div class="container-groups">-->
                 <div class="form-container">
                     <label><strong><i class="fa-solid fa-user"></i> Nome completo</strong></label>
-                    <input id="nome" type="text" title="Seu Nome" placeholder="Digite seu nome completo">
+                    <input id="nome" name="nome" type="text" title="Seu Nome" placeholder="Digite seu nome completo">
                     <small> Mensagem de Erro </small>
                 </div>
 
                 <div class="form-container">
                     <label><strong><i class="fa-solid fa-at"></i> Email</strong></label>
-                    <input id="email" type="email" title="Seu Email" placeholder="Digite seu Email">
+                    <input id="email" name="email" type="email" title="Seu Email" placeholder="Digite seu Email">
                     <small></small>
                 </div>
 
@@ -42,13 +42,13 @@
 
             <div class="form-container">
                 <label><strong><i class="fa-solid fa-transgender"></i> Gênero</strong></label>
-                <input id="gender" type="text" title="Seu gênero" placeholder="Informe seu gênero">
+                <input id="gender" name="gender" type="text" title="Seu gênero" placeholder="Informe seu gênero">
                 <small></small>
             </div>
 
             <div class="form-container">
                 <label> <strong><i class="fa-solid fa-unlock-keyhole"></i> Crie uma senha</strong></label>
-                <input id="password" type="password" title="Sua senha" placeholder="Crie uma senha">
+                <input id="password" name="password" type="password" title="Sua senha" placeholder="Crie uma senha">
                 <small></small>
             </div>
 
