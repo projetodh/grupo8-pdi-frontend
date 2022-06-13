@@ -22,7 +22,7 @@
         </br>
          <!-- header-->
 
-        <form>
+        <form id="form" method="post">
             <section class="w3-center w3-container">
                 <div>
                     <h2> Conectar-se </h2>
@@ -33,19 +33,23 @@
                 <!--<div class="container-groups">-->
                 <div class="login">
                     <label><strong>Email</strong></label></br>
-                    <input class="escreva" type="text" placeholder="Digite seu email">
+                    <input class="escreva" id="email" type="email" placeholder="Digite seu email">
+                    <small>Mensagem de erro</small>
                 </div>
                 </br>
                 
                 <div class="login">
                     <label> <strong>Senha</strong></label></br>
-                    <input class="escreva" type="password" placeholder="Digite sua senha">
+                    <input class="escreva" id="password" type="password" placeholder="Digite sua senha">
+                    <small>Mensagem de erro</small>
                 </div>
                 </br>
     
                 <div class="login">
-                    <input  type="checkbox"/>
-                    <span> Lembrar Senha </span></div>
+                    <label>     
+                        <input  type="checkbox"/>
+                        <span> Lembrar Senha </span>
+                    </label>
                 </div>
                 </br>
 
@@ -107,5 +111,6 @@
             </div>
             </br>
         </footer>
+        <script src="assets/js/login.js"></script>
     </body>
 </html>

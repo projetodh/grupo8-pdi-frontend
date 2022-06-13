@@ -45,10 +45,20 @@ form{
 }
 
 .login{
-    margin-left: 8%;
+    margin-left: 5%;
     text-align: justify;
+    position: relative;
 }
-
+.login small {
+    margin-bottom: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.login label {
+    position: absolute;
+}
 .escreva{
     width:93%;
     margin-top: 2%;
@@ -81,7 +91,19 @@ form{
 .perguntas:hover{
     color: #4b5381;
 }
-
+/* Error and Success */
+.login.success input {
+    border-color: #2ecc71;
+}
+  
+  .login.error input {
+    border-color: #e74c3c;
+}
+  
+  .login.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
 /*parte do rodapé*/
 footer {
     font-size: 12px;
